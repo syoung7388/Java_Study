@@ -18,7 +18,7 @@ public class Match {
 		Optional<Integer> opt1 = score1.filter(s->s<=100).findFirst();
 		
 		Stream<Integer> score2 = Stream.of(new Integer[]{10,20,30,100,150}); 
-		Optional<Integer> opt2 = score2.filter(s->s<=100).findAny();-
+		Optional<Integer> opt2 = score2.filter(s->s<=100).findAny();
 		
 		
 		System.out.println(opt1);
